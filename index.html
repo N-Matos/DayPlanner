@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Day Planner</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class = "jumbotron">
+        <h1>Work Day Scheduler</h1>
+        <p class = "jumboP">A simple calendar app for scheduling your workday.</p>
+        <p class = "jumboP dateP"></p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-2 tsBox top">
+                <p class="timeSlot">9 AM</p>
+            </div>
+            <textarea class="col-8 9 form-control" id = "9"></textarea>
+            <button class="save-9 btn">Save</button>
+        </div>
+        <div class="row">
+            <div class="col-2 tsBox">
+                <p class="timeSlot">10 AM</p>
+            </div>
+            <textarea class="col-8 10 form-control" id = "10"></textarea>
+            <button class="save-10 btn">Save</button>
+        </div>
+        <div class="row">
+            <div class="col-2 tsBox">
+                <p class="timeSlot">11 AM</p>
+            </div>
+            <textarea class="col-8 11 form-control" id = "11"></textarea>
+            <button class="save-11 btn">Save</button>
+        </div>
+        <div class="row">
+            <div class="col-2 tsBox">
+                <p class="timeSlot">12 AM</p>
+            </div>
+            <textarea class="col-8 12 form-control" id = "12"></textarea>
+            <button class="save-12 btn">Save</button>
+        </div>
+        <div class="row">
+            <div class="col-2 tsBox">
+                <p class="timeSlot">1 PM</p>
+            </div>
+            <textarea class="col-8 13 form-control" id = "13"></textarea>
+            <button class="save-1 btn">Save</button>
+        </div>
+        <div class="row">
+            <div class="col-2 tsBox">
+                <p class="timeSlot">2 PM</p>
+            </div>
+            <textarea class="col-8 14 form-control" id = "14"></textarea>
+            <button class="save-2 btn">Save</button>
+        </div>
+        <div class="row">
+            <div class="col-2 tsBox">
+                <p class="timeSlot">3 PM</p>
+            </div>
+            <textarea class="col-8 15 form-control" id = "15"></textarea>
+            <button class="save-3 btn">Save</button>
+        </div>
+        <div class="row">
+            <div class="col-2 tsBox">
+                <p class="timeSlot">4 PM</p>
+            </div>
+            <textarea class="col-8 16 form-control" id = "16"></textarea> 
+            <button class="save-4 btn">Save</button>
+        </div>
+        <div class="row">
+            <div class="col-2 tsBox bot">
+                <p class="timeSlot">5 PM</p>
+            </div>
+            <textarea class="col-8 17 form-control" id = "17"></textarea>
+            <button class="save-5 btn">Save</button>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="./moment.js"></script>    
+    <script src="./script.js"></script>
+
+
+</body>
+
+</html>

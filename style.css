@@ -1,0 +1,54 @@
+.row {
+    height: 80px;
+}
+
+.form-control {
+    resize: none;
+}
+
+.timeSlot {
+    text-align: center;
+    line-height: 75px;
+    margin: 0 auto;
+}
+
+.tsBox {
+    padding-right: 0 !important;
+    border-top: 1px solid grey;
+}
+
+textarea {
+    box-shadow: none !important;
+}
+
+.btn {
+    background-color: #06AED5;
+    margin-top: .5px;
+    margin-bottom: .5px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;  
+}
+
+body {
+    padding-bottom: 75px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid black;  
+}
+
+.jumboP {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.bot {
+    border-bottom: 1px solid grey;
+}
